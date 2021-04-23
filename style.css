@@ -1,0 +1,38 @@
+.menu{
+    display: flex;
+    justify-content:space-evenly;
+    background-color:indianred;
+    border: dashed bisque;
+}
+
+.bodyimg{
+    text-align: center;
+}
+
+.instructions{
+    position: absolute;
+    top: 30%;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid img{
+    border: dashed indianred;
+    border-radius: 60px;
+    background-color: bisque;
+    box-shadow: inset 5px 5px 50px indianred;
+}
+
+body{
+    background-color: rgb(255, 172, 172);
+}
+
+*{
+    color:#75002b;
+    font-family: garamond;
+    font-size: 21px;
+    font-weight: 800;
+}
